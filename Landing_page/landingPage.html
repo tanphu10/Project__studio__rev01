@@ -1,0 +1,698 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Landing_page</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <!-- linh hình tiêu đề tìm kiếm -->
+    <link rel="shortcut icon" href="./img/download.jpg" type="image/x-icon">
+    <!-- css  -->
+    <link rel="stylesheet" href="./css/index.css">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- font google  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+
+<body id="myBody">
+    <!-- header  -->
+    <!-- <header id="site-header" class="main-header fixed-top nav-fixed"> -->
+    <header class="fixed-top">
+        <!-- top header  -->
+        <section class="topheader">
+            <div class="container-fluid">
+                <div class="topheader__title">
+                    <div class="topheader__left">
+                        <div class="left__items">
+                            <a href="#">Have any a questions</a>
+                        </div>
+                        <div class="left__items">
+                            <i class="fa-solid fa-phone"></i>
+                            <a href="tel:+1(21) 234 4567">+1(21) 234 4567</a>
+                        </div>
+                        <div class="left__items">
+                            <i class="fa-solid fa-envelope"></i>
+                            <a href="mailto:mail@example.com">mail@example.com</a>
+
+                        </div>
+                    </div>
+                    <div class="topheader__right">
+                        <div class="right__items">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </div>
+                        <div class="right__items">
+                            <i class="fa-brands fa-twitter"></i>
+                        </div>
+                        <div class="right__items">
+                            <i class="fa-brands fa-instagram"></i>
+                        </div>
+                        <div class="right__items">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="bottomheader bg-light">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary me-5">
+                <div class="container-fluid">
+                    <a class="navbar-brand d-flex " href="#">
+                        <img src="./img/logo.png" alt="">
+                        <h2 class=" fs-3 ">Studios</h2>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end " id="navbarSupportedContent">
+                        <ul class="navbar-nav ">
+                            <li class="nav-item">
+                                <a class="nav-link text-black " aria-current="page" href="../index.html">HOME</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-black" href="../aboutUS.html">ABOUT US</a>
+                            </li>
+                            <li class="nav-item dropdown active">
+                                <a class="nav-link text-black dropdown-toggle" href="#" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    PAGES
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item text-black" href="../Blog_1/blog.html">BLOG POSTS</a></li>
+                                    <li><a class="dropdown-item text-black" href="../caps_/index404.html">404 PAGE</a></li>
+
+                                    <li><a class="dropdown-item text-black"
+                                            href="../Landing_page/landingPage.html">LANDING PAGE</a></li>
+                                    <li><a class="dropdown-item text-black" href="../caps_/ElementsPage.html">ELEMENTS PAGE</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-black ">CONTACT</a>
+                            </li>
+                        </ul>
+                        <ul class="navbar-nav box">
+                            <div class="search-box">
+                                <form class="d-flex position-relative" role="search">
+                                    <div class="input-search">
+                                        <input class="form-control me-2" type="search" placeholder="Enter Keyword"
+                                            required="required" autofocus class="search-popup">
+                                    </div>
+                                    <button type="submit" class="btn search-btn"
+                                        style="position: absolute ;right: 0; color:#0d369f ;">
+                                        <i class="fa-solid fa-magnifying-glass"></i>
+                                    </button>
+                                </form>
+                            </div>
+                        </ul>
+                        <div class="DarkLight">
+                            <button class="btn" id="switchButton" title="Click to switch theme">
+                                <i class="fa-regular fa-moon"></i>
+                                <i class="fa-solid fa-sun"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </section>
+    </header>
+    <!-- caroucel  -->
+    <section class="cybercarousel">
+        <!-- <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button> -->
+        <!-- <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button> -->
+        <!-- </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./img/banner2.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel__banner">
+                        <h1>Master the <br> Skills to Drive <br> your Career </h1>
+                        <button class=" btn btn-light">
+                            <span>Kown More <i class="fa-solid fa-arrow-right"></i></span>
+                        </button>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/banner3.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel__banner">
+                        <h1>Studios is the <br> Best Choice for <br> everyone </h1>
+                        <button class=" btn btn-light">
+                            <a href="#">Kown More <i class="fa-solid fa-arrow-right"></i></a>
+                        </button>
+                    </div>
+                </div>
+            </div> -->
+        <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button> -->
+        </div>
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./img/banner2.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel__banner">
+                        <h1>Master the <br> Skills to Drive <br> your Career </h1>
+                        <button class=" btn btn-light">
+                            <span>Kown More <i class="fa-solid fa-arrow-right"></i></span>
+                        </button>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/banner3.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel__banner">
+                        <h1>Studios is the <br> Best Choice for <br> everyone </h1>
+                        <button class=" btn btn-light">
+                            <a href="#">Kown More <i class="fa-solid fa-arrow-right"></i></a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button> -->
+        </div>
+    </section>
+    <!-- content  -->
+    <section class="content text-center">
+        <div class="container px-4">
+            <div class="row g-5 text-center ">
+                <div class="content__items col-lg-3 col-md-6 px-lg-2">
+                    <div class="zone item1">
+                        <i class="fa-solid fa-gears"></i>
+                        <h3>Engineering & Architecture</h3>
+                    </div>
+                </div>
+                <div class="content__items col-lg-3 col-md-6 px-lg-2">
+                    <div class="zone item2">
+                        <i class="fa-solid fa-book"></i>
+                        <h3>Learning Management</h3>
+                    </div>
+                </div>
+                <div class="content__items col-lg-3 col-md-6 px-lg-2">
+                    <div class="zone item3">
+                        <i class="fa-solid fa-mug-saucer"></i>
+                        <h3>Business & Manegement</h3>
+                    </div>
+                </div>
+                <div class="content__items col-lg-3 col-md-6 px-lg-2">
+                    <div class="zone item4">
+                        <i class="fa-solid fa-hourglass-half"></i>
+                        <h3>Artifical Intelligance</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- welcome  -->
+    <section class="welcome text-center ">
+        <div class="container-fluid">
+            <div class="welcome__title">
+                <h2 class="sub__title">Welcome to <span class="content">Studious</span></h2>
+            </div>
+            <div class="row text-center">
+                <div class="welcome__items col-12 col-md-6 col-xl-4">
+                    <i class="fa-solid fa-graduation-cap"></i>
+                    <div class="welcome__subtitle">
+                        <a href="#">Trending Courses</a>
+                        <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            Odit ullam,soluta dolorum nobis <br> porro earum.</p>
+                    </div>
+                </div>
+                <div class="welcome__items col-12 col-md-6 col-xl-4">
+                    <i class="fa-solid fa-users"></i>
+                    <div class="welcome__subtitle">
+                        <a href="#">Certified Teacher</a>
+                        <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            Odit ullam,soluta dolorum nobis <br> porro earum.</p>
+                    </div>
+                </div>
+                <div class="welcome__items col-12 col-md-6 col-xl-4">
+                    <i class="fa-solid fa-book"></i>
+                    <div class="welcome__subtitle">
+                        <a href="#">Book&Library</a>
+                        <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            Odit ullam,soluta dolorum nobis <br> porro earum.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- content  -->
+    <section class="banner">
+        <div class="container">
+            <div class="row g-3 my-2">
+                <div class="col-12 col-md-6 ">
+                    <div class="banner__items">
+                        <i class="fa-solid fa-hands-asl-interpreting"></i>
+                        <div class="item">
+                            <h3>Flexible Classes</h3>
+                            <p>Lorem ipsum dolor sit amet, dolor elit.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 ">
+                    <div class="banner__items">
+                        <i class="fa-solid fa-download"></i>
+                        <div class="item">
+                            <h3>Offline Mode</h3>
+                            <p>Lorem ipsum dolor sit amet, dolor elit.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="row g-3">
+                <div class="col-12 col-md-6 ">
+                    <div class="banner__items">
+                        <i class="fa-solid fa-headphones-simple"></i>
+                        <div class="item">
+                            <h3>Educator Help</h3>
+                            <p>Lorem ipsum dolor sit amet, dolor elit.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="banner__items">
+                        <i class="fa-solid fa-circle-play"></i>
+                        <div class="item">
+                            <h3> Online Classes</h3>
+                            <p>Lorem ipsum dolor sit amet, dolor elit.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- number  -->
+    <section class="number">
+        <div class="container">
+            <div class="number__title">
+                <h2 class="sub__title">Strength in <span class="content">Numbers</span></h2>
+                <p>Similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et <br> dolorum fuga.</p>
+            </div>
+            <div class="row text-center ">
+                <div class="number__items col-12 col-md-6 col-xl-3">
+                    <h2 class="counter">6,300</h2>
+                    <p>Learners & Counting</p>
+                </div>
+                <div class="number__items col-12 col-md-6 col-xl-3">
+                    <h2 class="counter">638</h2>
+                    <p>Total Courses</p>
+                </div>
+
+                <div class="number__items col-12 col-md-6 col-xl-3">
+                    <h2 class="counter">7,600</h2>
+                    <p>Successful students</p>
+                </div>
+
+                <div class="number__items col-12 col-md-6 col-xl-3">
+                    <h2 class="counter">36</h2>
+                    <p>Languges</p>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- feedback -->
+    <section class="feedback">
+        <div class="container-fluid">
+            <div class="feedback__title">
+                <h2 class="sub__title">Student Community <span class="content">feedback</span></h2>
+            </div>
+            <div class="row g-3">
+                <div class="feedback__content col-12 col-md-6 col-xl-4">
+                    <div class="feedback__items">
+                        <i class="fa-solid fa-quote-left"></i>
+                        <p> Nam libero tempore, cum soluta <br> nobis est eligendi optio cumque <br> nihil impedit.</p>
+                        <div class="feedback__subtitle">
+                            <img src="./img/testi2.jpg" alt="">
+                            <div class="title">
+                                <h3>Petey Cruis</h3>
+                                <p>Caption Here</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="feedback__content col-12 col-md-6 col-xl-4">
+                    <div class="feedback__items">
+                        <i class="fa-solid fa-quote-left"></i>
+                        <p> Nam libero tempore, cum soluta <br> nobis est eligendi optio cumque <br> nihil impedit.</p>
+                        <div class="feedback__subtitle">
+                            <img src="./img/testi3.jpg" alt="">
+                            <div class="title">
+                                <h3>Molive Joe</h3>
+                                <p>Caption Here</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="feedback__content col-12 col-md-6 col-xl-4">
+                    <div class="feedback__items">
+                        <i class="fa-solid fa-quote-left"></i>
+                        <p> Nam libero tempore, cum soluta <br> nobis est eligendi optio cumque <br> nihil impedit.</p>
+                        <div class="feedback__subtitle">
+                            <img src="./img/testi1.jpg" alt="">
+                            <div class="title">
+                                <h3>Paige Turner</h3>
+                                <p>Caption Here</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <!-- instructor  -->
+    <section class="instructor">
+        <div class="container-fluid px-5 py-4">
+            <div class="instructor__title">
+                <h2 class="sub__title"> World Class <span class="content">Instructors</span></h2>
+            </div>
+            <div class="row g-4">
+                <div class="instructor__content col-lg-3 col-sm-6">
+                    <div class="instructor__items">
+                        <div class="instructor__title">
+                            <img src="./img/team1.jpg" alt="">
+                            <div class="instructor__overlay">
+                                <div class="overlay__icon">
+                                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                </div>
+                                <div class="overlay__icon">
+                                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                </div>
+                                <div class="overlay__icon">
+                                    <a href="#"><i class="fa-brands fa-google-plus-g"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="instructor__subtitle">
+                            <h3>Olive Yew</h3>
+                            <p>Teaches Design</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="instructor__content col-lg-3 col-sm-6">
+                    <div class="instructor__items">
+                        <div class="instructor__title">
+                            <img src="./img/team2.jpg" alt="">
+                            <div class="instructor__overlay">
+                                <div class="overlay__icon">
+                                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                </div>
+                                <div class="overlay__icon">
+                                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                </div>
+                                <div class="overlay__icon">
+                                    <a href="#"><i class="fa-brands fa-google-plus-g"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="instructor__subtitle">
+                            <h3>Aida Joe</h3>
+                            <p>UI/UX Designer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="instructor__content col-lg-3 col-sm-6">
+                    <div class="instructor__items">
+                        <div class="instructor__title">
+                            <img src="./img/team3.jpg" alt="">
+                            <div class="instructor__overlay">
+                                <div class="overlay__icon">
+                                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                </div>
+                                <div class="overlay__icon">
+                                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                </div>
+                                <div class="overlay__icon">
+                                    <a href="#"><i class="fa-brands fa-google-plus-g"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="instructor__subtitle">
+                            <h3>Teri Dac</h3>
+                            <p>Teaches Skills</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="instructor__content col-lg-3 col-sm-6">
+                    <div class="instructor__items">
+                        <div class="instructor__title">
+                            <img src="./img/team4.jpg" alt="">
+                            <div class="instructor__overlay">
+                                <div class="overlay__icon">
+                                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                </div>
+                                <div class="overlay__icon">
+                                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                </div>
+                                <div class="overlay__icon">
+                                    <a href="#"><i class="fa-brands fa-google-plus-g"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="instructor__subtitle">
+                            <h3>Anton Bne</h3>
+                            <p>Web Designer</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <!-- contact  -->
+    <section class="contact">
+        <div class="container">
+            <div class="row contact__title">
+                <div class="contact__left col-md-5">
+                    <h2>Get in touch with us</h2>
+                    <div class="contact__left__items">
+                        <i class="fa-solid fa-earth-americas"></i>
+                        <div class="item">
+                            <h4>Company Address</h4>
+                            <p>10001, 5th Avenue, 12202 street, London.</p>
+                        </div>
+                    </div>
+                    <div class="contact__left__items">
+                        <i class="fa-solid fa-phone"></i>
+                        <div class="item">
+                            <h4>Company Address</h4>
+                            <a href="tel:+1(21) 234 4567">+1(21) 234 4567</a>
+                        </div>
+                    </div>
+                    <div class="contact__left__items">
+                        <i class="fa-solid fa-envelope-open"></i>
+                        <div class="item">
+                            <h4>Email Us</h4>
+                            <a href="mailto:mail@example.com">example@mail.com</a>
+                        </div>
+                    </div>
+                    <div class="contact__left__items">
+                        <i class="fa-solid fa-headphones-simple"></i>
+                        <div class="item">
+                            <h4>Customer Support</h4>
+                            <a href="mailto:mail@example.com">info@support.com</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact__right col-md-7">
+                    <div class="right">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d62706.01062072399!2d106.65761720372495!3d10.801686285609513!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x317528c7935acb19%3A0x9aa0ba0f1af8b312!2sBa%20Chieu%20Market%2C%20B%C3%ACnh%20Th%E1%BA%A1nh%2C%20Ho%20Chi%20Minh%20City%2C%20Vietnam!3m2!1d10.8016047!2d106.6988172!4m5!1s0x317528c7935acb19%3A0x9aa0ba0f1af8b312!2zQ2jhu6MgQsOgIENoaeG7g3UsIHBoxrDhu51uZyAxLCBCw6xuaCBUaOG6oW5oLCBUaMOgbmggcGjhu5EgSOG7kyBDaMOtIE1pbmg!3m2!1d10.8016047!2d106.6988172!5e0!3m2!1sen!2s!4v1682947289668!5m2!1sen!2s"
+                            width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- question  -->
+    <section class="question">
+        <section class="question text-center ">
+            <div class="container">
+                <div class="question__title">
+                    <h2 class="sub__title">We will Answers sll your <span class="content">Questions</span></h2>
+                </div>
+                <div class="row g-3 text-center">
+                    <div class="question__left  col-md-5">
+                        <img src="./img/contact.jpg" alt="">
+                    </div>
+                    <div class="question__right  col-md-7 mt-md-0 mt-4 pl-lg-4">
+                        <form>
+                            <input type="text" name="Your name" id="" placeholder="Your name*">
+                            <input type="email" name="email" id="" placeholder="Your email*">
+                            <input type="text" name="Subject" id="" placeholder="Subject*">
+                            <textarea name="" id="" cols="30" rows="10"></textarea>
+                            <button class="btn btn-secondary mt-sm-3 ">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+    <footer>
+        <div class="container-fluid">
+            <div class="footer__top">
+                <div class="row align-items-center w3l-forms-9">
+                    <div class="top__left col-12 col-md-6">
+                        <h2>Subscribe Us to join our Community</h2>
+                        <p>Newsletter</p>
+                    </div>
+                    <div class="top__right col-12 col-md-6 mt-md-0 mt-4">
+                        <form>
+                            <input type="email" name="email" id="" placeholder="Enter Your Email">
+                            <button>Send</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer__bottom">
+                <div class="row">
+                    <div class="items text-light col-12 col-md-6 col-xl-3">
+                        <h2>Archives</h2>
+                        <div class="item">
+                            <i class="fa-solid fa-angles-right"></i>
+                            <a href="#">April 2021</a>
+                        </div>
+                    </div>
+                    <div class="items text-light col-12 col-md-6 col-xl-3">
+                        <h2>Categoties</h2>
+                        <div class="item">
+                            <i class="fa-solid fa-angles-right"></i>
+                            <a href="#">Business</a>
+                        </div>
+                        <div class="item">
+                            <i class="fa-solid fa-angles-right"></i>
+                            <a href="#">Creative</a>
+                        </div>
+                        <div class="item">
+                            <i class="fa-solid fa-angles-right"></i>
+                            <a href="#">Design</a>
+                        </div>
+                        <div class="item">
+                            <i class="fa-solid fa-angles-right"></i>
+                            <a href="#">Food</a>
+                        </div>
+                        <div class="item">
+                            <i class="fa-solid fa-angles-right"></i>
+                            <a href="#">Industry</a>
+                        </div>
+                    </div>
+                    <div class="items text-light col-12 col-md-6 col-xl-3">
+                        <h2>Contact</h2>
+                        <div class="item">
+                            <i class="fa-regular fa-envelope"></i>
+                            <a href="mailto:info@example.com">info@example.com</a>
+                        </div>
+                        <div class="item">
+                            <i class="fa-solid fa-phone"></i>
+                            <a href="tel: +44-000-888-999">+44-000-888-999</a>
+                        </div>
+                        <div class="item">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <a href="#"> London, 235 Terry, 10001</a>
+                        </div>
+                    </div>
+                    <div class="items text-light col-12 col-md-6 col-xl-3">
+                        <h2>Abouts</h2>
+                        <div class="item__content">
+                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+                                laudantium,
+                                totam rem aperiam, eaque ipsa quae ab.</p>
+                        </div>
+                        <div class="item__touch">
+                            <div class="right__items">
+                                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                            </div>
+                            <div class="right__items">
+                                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                            </div>
+                            <div class="right__items">
+                                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            </div>
+                            <div class="right__items">
+                                <a href="#"><i class="fa-brands fa-google-plus-g"></i></a>
+                            </div>
+                            <div class="right__items">
+                                <a href="#"><i class="fa-brands fa-github"></i></a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        </div>
+
+        </div>
+        </div>
+        <div class="footer__reserved">
+            <div class="container-fluid">
+                <span>© 2023 Studious. All Rights Reserved | WordPress Theme by
+                    <a href="#">W3Layouts.</a>
+                </span>
+            </div>
+        </div>
+        <!-- place footer here -->
+    </footer>
+    <!-- back to top  -->
+    <div class="back_top">
+        <a href="#">
+            <i class="fa-solid fa-arrow-turn-up"></i>
+        </a>
+    </div>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+        </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+        integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+        </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"
+        integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- count up js  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"
+        integrity="sha512-ZKNVEa7gi0Dz4Rq9jXcySgcPiK+5f01CqW+ZoKLLKr9VMXuCsw3RjWiv8ZpIOa0hxO79np7Ec8DDWALM0bDOaQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./js/Counting-Up-To-Numerical-Values-On-Scroll-jQuery-Countup-js/jquery.countup.js"></script>
+    <script>$('.counter').countUp({
+            'time': 2000,
+            // 'delay': 10
+        });</script>
+    <script src="./index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,14 @@
+Bài tập về nhà
+
+Mục tiêu:
+
+* Thực hành kiến thức về các loại function
+
+* Áp dụng kiến thức về lệnh điều kiện để xây dựng chương trình
+theo yêu cầu đề
+
+* Ôn tập các kiến thức nền tảng của JavaScript: variable, các toán
+tử (+ - ,*,/....), DOM bằng ID, sự kiện của thẻ, hiển thị nội dung
+lên web
+
+* Rèn luyện kỹ năng phân tích yêu cầu bằng mô hình 3 khối A

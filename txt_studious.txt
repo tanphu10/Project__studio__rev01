@@ -1,0 +1,6 @@
+phân công công việc
+
+
+1.Nguyên lầm phần: Home - About Us
+2.Tân: elements + 404 page
+3.Phú: blog posts + landing-page

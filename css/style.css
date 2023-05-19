@@ -73,8 +73,6 @@ p {
   border: none;
   transition: all 0.25s ease-in-out;
 }
-/*! ========== header ========== */
-
 /*!= header__top ==================== */
 .header__top {
   padding: 14px 15px;
@@ -247,7 +245,6 @@ button .dark #switchButton {
 .dark #switchButton .fa-moon {
   display: none;
 }
-/*! ===================   header__main */
 
 .carousel__item {
   padding: 8em 5rem;
